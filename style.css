@@ -1,41 +1,47 @@
-h1 {
+.header {
 
     text-align: center;
     color: black;
+    font-family:Georgia;
 }
 
-.navbar ul{
-    
-list-style-type: none;
+.navbar{
 
-overflow: hidden;
+    text-align: center;
+
+    list-style-type: none;
+
+    background-color: rgb(25, 143, 211);
+
+    overflow: hidden;
+
+    border-radius: 12px;
+
+    height: 25px;
+
 
 }
 
 .navbar a{
 
-    display: block;
-
-    text-align: center;
-
     text-decoration: none;
+
+    display: block;
 
     color: white;
 
+    border: none;
 
+    
+    
 
 }
 
 .navbar li{
 
-    float: left;
+    float:left ;
 
-    padding: 90px;
-
-    background-color: black;
+    padding-right: 10px;
 
     
-
-
-
 }
