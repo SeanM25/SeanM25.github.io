@@ -1,189 +1,187 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+header{
 
-        header{
+    display: flex;
 
-            display: flex;
+    justify-content: space-between;
 
-            justify-content: space-between;
+    align-items: center;
 
-            align-items: center;
+}
 
-            background-color: white;
+.my_name{
 
-            padding: 10px 10px;
+    color: black;
 
-            height: 20px;
+    font-family: "Bebas Neue";
 
-            opacity: 100%;
+    font-weight: bold;
 
+    font-size: 25px;
+    
+}
+
+.navbar li{
+
+    display: inline-block;
+}
+
+
+.home_btn{
+
+    border: none;
+
+    border-radius: 50px;
+
+    background-color: rgba(0,0,0,0);
+
+    padding: 5px 10px;
+
+    color: black;
+
+    font-family: "Bebas Neue";
+
+    font-weight: bold;
+
+    font-size: 25px;
+
+}
+
+.home_btn:hover{
+
+    background-color: rgba(114, 111, 111, 0.5);
+
+    cursor: pointer;
+
+    transition: 0.125s;
+}
+
+.portfolio_btn{
+
+    border: none;
+
+    border-radius: 50px;
+
+    background-color: rgba(0,0,0,0);
+
+    padding: 5px 10px;
+
+    color: black;
+
+    font-family: "Bebas Neue";
+
+    font-weight: bold;
+
+    font-size: 25px;
+
+}
+
+.portfolio_btn:hover{
+
+    background-color: rgba(114, 111, 111, 0.5);
+
+    cursor: pointer;
+
+    transition: 0.125s;
+}
+
+
+.contact_btn{
+
+    border: none;
+
+    padding: 5px 5px;
+
+    color: white;
+
+    background-color: rgb(20, 139, 169);
+
+    border-radius: 50px;
+
+    font-family: "Bebas Neue";
+
+    font-weight: 500;
+
+    font-size: 25px;
 
     
-        }
+}
 
-        .my_name{
+.contact_btn:hover{
 
-            color: black;
+    background-color: rgba(20, 139, 169, 0.7);
 
-            font-family: "Bebas Neue";
+    transition: 0.125s;
 
-            font-weight: bold;
+    cursor:pointer;
+}
 
-            font-size: 25px;
-            
-        }
+.resume_btn{
 
-        .navbar{
+    border: none;
 
-            list-style: none;
+    background-color: rgba(0,0,0,0);
 
-        }
+    padding: 5px 10px;
 
+    border-radius: 50px;
 
-        .navbar a{
+    color: black;
 
-            text-decoration: none;
+    font-family: "Bebas Neue";
 
-            color: black
+    font-weight: bold;
 
-        }
+    font-size: 25px;
 
+}
 
-        .navbar li {
+.resume_btn:hover{
 
-            display: inline-block;
+    background-color: rgba(114, 111, 111, 0.5);
 
-            padding: 15px;
+    cursor: pointer;
 
-        }
+    transition: 0.125s;
+}
 
-        .contact_btn{
+.profile_pic{
 
-            border: none;
+    height: 250px;
 
-            padding: 5px 5px;
+    width: 250px;
 
-            color: white;
+    border-radius: 200px;
+}
 
-            background-color: rgb(20, 139, 169);
 
-            border-radius: 50px;
+.home_content{
 
-            font-family: "Bebas Neue";
+    display: block;
 
-            font-weight: 500;
+    justify-content: space-between;
 
-            font-size: 25px;
+    align-items: center;
+}
 
-            
-        }
 
-        .contact_btn:hover{
+.home_text{
 
-            background-color: rgba(20, 139, 169, 0.7);
+    font-family: fantasy;
 
-            transition: 0.125s;
+    font-weight: bold;
 
-            cursor:pointer;
+    font-size: 20px;
 
+    line-height: 2.0;
 
+}
 
+.pic_cont{
 
-        }
+    display: flex
 
-        .home_btn{
 
-            border: none;
-
-            border-radius: 50px;
-
-            background-color: rgba(0,0,0,0);
-
-            padding: 5px 10px;
-
-            color: black;
-
-            font-family: "Bebas Neue";
-
-            font-weight: bold;
-
-            font-size: 25px;
-
-        }
-
-        .home_btn:hover{
-
-            background-color: rgba(114, 111, 111, 0.5);
-
-            cursor: pointer;
-
-            transition: 0.125s;
-        }
-
-        .portfolio_btn{
-
-            border: none;
-
-            border-radius: 50px;
-
-            background-color: rgba(0,0,0,0);
-
-            padding: 5px 10px;
-
-            color: black;
-
-            font-family: "Bebas Neue";
-
-            font-weight: bold;
-
-            font-size: 25px;
-
-        }
-
-        .portfolio_btn:hover{
-
-            background-color: rgba(114, 111, 111, 0.5);
-
-            cursor: pointer;
-
-            transition: 0.125s;
-        }
-
-        .resume_btn{
-
-            border: none;
-
-            background-color: rgba(0,0,0,0);
-
-            padding: 5px 10px;
-
-            border-radius: 50px;
-
-            color: black;
-
-            font-family: "Bebas Neue";
-
-            font-weight: bold;
-
-            font-size: 25px;
-
-        }
-
-        .resume_btn:hover{
-
-            background-color: rgba(114, 111, 111, 0.5);
-
-            cursor: pointer;
-
-            transition: 0.125s;
-        }
-
-       
-
-
-
-
-
-
-
+}
