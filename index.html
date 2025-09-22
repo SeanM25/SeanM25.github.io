@@ -1,44 +1,154 @@
-<!DOCTYPE html> <!-- Set Type to HTML -->
+<!DOCTYPE html>
+
+
 
 <html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sean M. Manger Personal Website</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="#">
+    </head>
 
-<head>
 
-<meta charset="utf-8">
 
-<meta name="viewport" content="width = device-width, initial-scale=1">
+    <style>
 
-<title>
+        header{
 
-    Sean Michael Manger's Personal Website
+            display: flex;
+
+            justify-content: space-between;
+
+            align-items: center;
+
+            background-color: black;
+
+            padding: 10px 10px;
+
+            height: 20px;
+
+            opacity: 100%;
+
+
     
-</title>
+        }
 
-<link rel = "stylesheet" href="style.css">
+        .my_name{
 
-</head>
+            color: white;
+        }
 
-<body>
+        .navbar{
 
-<h1 class = "header"> Sean Michael Manger</h1>
+            list-style: none;
 
-<h2 class = "header">Electrical Engineering Major @ UCSC</h2>
+        }
 
-<h3 class = "header">Undergraduate Researcher @ Hardware Systems Collective Lab</h3>
 
-<ul class = "navbar">
+        .navbar a{
 
-    <li><a href = "index.html"> Home </a></li>
+            text-decoration: none;
 
-    <li><a href = "projects.html"> Project Portfolio </a></li>
+            color: white
 
-    <li><a href = "resume.html"> Resume </a></li>
+        }
 
-</ul>
 
-<par></par>
+        .navbar li {
 
-</body>
+            display: inline-block;
+
+            padding: 15px;
+
+        }
+
+         .navbar li a:hover {
+
+            color: rgb(20, 139, 169);
+
+            transition: 0.125s;
+
+        }
+
+        .contact_btn{
+
+            border: none;
+
+            padding: 5px 5px;
+
+            color: white;
+
+            background-color: rgb(20, 139, 169);
+
+            text-decoration: none;
+
+            border-radius: 50px;
+
+            font-weight: bold;
+
+            
+        }
+
+        .contact_btn:hover{
+
+            background-color: rgba(20, 139, 169, 0.7);
+
+            transition: 0.125s;
+
+
+
+
+        }
+
+        .home_btn{
+
+            border: none;
+
+            border-radius: 50px;
+
+            background-color: white;
+
+            padding: 5px 5px;
+
+            color: black;
+
+            font-weight: bold;
+        }
+
+       
+
+
+
+    </style>
+
+    <body>
+
+        <header>
+
+            <p class = "my_name">Sean Manger</p>
+
+            <ul class = "navbar">
+                <li><a href = "index.html"><button class = home_btn>Home</button></a> </li>
+
+                <li><a href = "#">Project Portfolio</a></li>
+
+                <li><a href = "#">Resume</a></li>
+
+
+            </ul>
+
+            <a> <button class = "contact_btn">Contact Me</button></a>
+
+
+        </header>
+        
+
+
+    </body>
+
 
 
 </html>
