@@ -9,8 +9,6 @@ header{
 
     align-items: center;
 
-    overflow: hidden;
-
 }
 
 .my_name{
@@ -21,8 +19,7 @@ header{
 
     font-weight: bold;
 
-    font-size: 25px;
-    
+    font-size: 25px;    
 }
 
 .navbar li{
@@ -48,7 +45,6 @@ header{
     font-weight: bold;
 
     font-size: 25px;
-
 }
 
 .home_btn:hover{
@@ -184,6 +180,24 @@ header{
 .pic_cont{
 
     display: flex
+
+
+}
+
+.links{
+
+    list-style: none;
+
+    text-decoration: none;
+
+    background-color: none;
+
+    font-family: "Bebas Neue";
+
+    font-size: 30px;
+}
+
+@media (max-width: 320px){
 
 
 }
