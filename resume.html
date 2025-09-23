@@ -21,7 +21,7 @@
 
                 <li><a href = "portfolio.html"><button class = "portfolio_btn">Project & Research Portfolio</button></a></li>
 
-                <li><a href = "#"><button class = "resume_btn">Resume</button></a></li>
+                <li><a href = "resume.html"><button class = "resume_btn">Resume</button></a></li>
 
 
             </ul>
@@ -34,13 +34,26 @@
         </header>
 
         </div>
-                <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+        <div class = "resume_browser" style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
         padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
         border-radius: 8px; will-change: transform;">
          <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
            src="resume.pdf" auto allowfullscreen="allowfullscreen" allow="fullscreen">
          </iframe>
        </div>
+
+       <!-- For mobile browsers -->
+        <div class="resume_mobile">
+            <img src="resume.jpg" alt="My resume">
+            
+        </div>
+
+        
+            <a class="footer" href="resume.pdf" download="Sean Manger Resume">
+            <button class="resume_btn_mobile">
+            <span>Downloadable Resume</span>
+            </button>
+        </a>
 
     </body>
 </html>

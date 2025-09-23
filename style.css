@@ -201,3 +201,36 @@ header{
 
     text-decoration: underline;
 }
+
+@media screen and (max-width: 768px) {
+    .resume_browser {
+        display: none;
+    }
+
+    .resume_mobile {
+        display: block;
+        width: 100%;
+
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .resume_browser {
+
+        justify-content: center;
+
+        align-items: center;
+    }
+
+    .resume_mobile {
+        display: none;
+        width: 100%;
+
+    }
+
+    .resume_btn_mobile{
+
+        display: none;
+    }
+}
+
