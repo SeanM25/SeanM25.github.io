@@ -200,6 +200,21 @@ header{
     text-align: center;
 
     text-decoration: underline;
+    
+}
+
+.footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.resume_btn_mobile{
+    justify-content: center;
+    height: 40px;
+    color: black;
+    border-radius: 5px;
+    padding: 10px 25px;
 }
 
 @media screen and (max-width: 768px) {
@@ -209,7 +224,7 @@ header{
 
     .resume_mobile {
         display: block;
-        width: 100%;
+        width: 100vw;
 
     }
 }
