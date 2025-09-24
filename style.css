@@ -1,17 +1,26 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-header{
 
-    display: flex;
+/* Navbar Stuff */
 
-    justify-content: space-evenly;
+.navbar_cnt{
 
-    align-content: center;
+display: flex;
+
+align-items: center;
+
+justify-content: space-between;
+}
+
+.nav_items li{
+
+    display: inline-flex;
+
+    text-decoration: none;
 
 }
 
-.my_name{
+.logo_cnt{
 
     color: black;
 
@@ -21,12 +30,6 @@ header{
 
     font-size: 25px;    
 }
-
-.navbar li{
-
-    display: inline-block;
-}
-
 
 .home_btn{
 
@@ -45,15 +48,6 @@ header{
     font-weight: bold;
 
     font-size: 25px;
-}
-
-.home_btn:hover{
-
-    background-color: rgba(114, 111, 111, 0.5);
-
-    cursor: pointer;
-
-    transition: 0.125s;
 }
 
 .portfolio_btn{
@@ -76,15 +70,25 @@ header{
 
 }
 
-.portfolio_btn:hover{
+.resume_btn{
 
-    background-color: rgba(114, 111, 111, 0.5);
+    border: none;
 
-    cursor: pointer;
+    background-color: rgba(0,0,0,0);
 
-    transition: 0.125s;
+    padding: 5px 10px;
+
+    border-radius: 50px;
+
+    color: black;
+
+    font-family: "Bebas Neue";
+
+    font-weight: bold;
+
+    font-size: 25px;
+
 }
-
 
 .contact_btn{
 
@@ -106,146 +110,106 @@ header{
 
     
 }
+  /* Picture and Links */ 
+.piclinks_cont{
 
-.contact_btn:hover{
+display: flex;
 
-    background-color: rgba(20, 139, 169, 0.7);
+justify-content: center;
 
-    transition: 0.125s;
+align-items: center;
 
-    cursor:pointer;
-}
-
-.resume_btn{
-
-    border: none;
-
-    background-color: rgba(0,0,0,0);
-
-    padding: 5px 10px;
-
-    border-radius: 50px;
-
-    color: black;
-
-    font-family: "Bebas Neue";
-
-    font-weight: bold;
-
-    font-size: 25px;
 
 }
 
-.resume_btn:hover{
+.links_cnt{
 
-    background-color: rgba(114, 111, 111, 0.5);
+    display: inline-block;
 
-    cursor: pointer;
+    text-decoration: none;
 
-    transition: 0.125s;
+}
+
+.links_cnt li{
+
+    list-style-type: none;
+
+    justify-content: space-evenly;
+
 }
 
 .profile_pic{
 
-    height: 250px;
+    height: 226px;
 
-    width: 250px;
+    width: 226px;
 
     border-radius: 200px;
 }
 
+/* Homepage Words */
 
-.home_content{
+.blurb_cnt{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+
+}
+
+.home_blurb{
 
     display: block;
 
-    justify-content: space-between;
+    justify-content: center;
 
     align-items: center;
-}
 
+
+}
 
 .home_text{
 
-    font-family: fantasy;
+    font-family: Copperplate, Papyrus, fantasy;
 
     font-size: 20px;
+
+    font-weight: bold;
 
     line-height: 2.0;
 
 }
 
-.pic_cont{
+/* Portfolio */
 
-    display: flex
+.portfolio_cnt{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
 
 
 }
 
-.links{
-
-    list-style: none;
-
-    text-decoration: none;
-
-    background-color: none;
-
-    font-family: "Bebas Neue";
-
-    font-size: 30px;
-}
-
-.tbd{
-
-    text-align: center;
+.title_portfolio{
 
     text-decoration: underline;
-    
 }
 
-.footer{
+.content_cont{
+
     display: flex;
-    text-align: center;
+
     justify-content: center;
+
+    align-items: center;
+
 }
 
-.resume_btn_mobile{
-    justify-content: center;
-    height: 40px;
-    color: black;
-    border-radius: 5px;
-    padding: 10px 25px;
-}
-
-@media screen and (max-width: 768px) {
-    .resume_browser {
-        display: none;
-    }
-
-    .resume_mobile {
-        display: block;
-        width: 100vw;
-
-    }
-}
-
-@media screen and (min-width: 769px) {
-    .resume_browser {
-
-        justify-content: center;
-
-        align-items: center;
-    }
-
-    .resume_mobile {
-        display: none;
-        width: 100%;
-
-    }
-
-    .resume_btn_mobile{
-
-        display: none;
-    }
-}
 
