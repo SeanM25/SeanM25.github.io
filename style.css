@@ -250,4 +250,14 @@ align-items: center;
 
 }
 
+.resume_cont{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
 
