@@ -10,7 +10,7 @@
     </head>
     <body>
 
-        <header>
+              <header>
             <nav class = "navbar">
 
                 <div class = "navbar_cnt">
@@ -26,7 +26,35 @@
                         <li><a href="resume.html"><button class = "resume_btn">Resume</button></a></li>
                     </ul>
 
-                    <div class = "contact_cnt"><a><button class = "contact_btn">Contact Me</button></a></div>
+                    <button class="contact_btn" onclick="myFunction()">Contact Me
+    <div class="dropdown-content" id="myDropdown">
+    <a href="mailto:seanmanger22@gmail.com">Email</a>
+    <a href="tel:+1-831-269-1918">Phone</a>
+  </div>
+  </button>
+  
+  </div> 
+
+
+
+                            <script>
+                            /* When the user clicks on the button, 
+                            toggle between hiding and showing the dropdown content */
+                            function myFunction() {
+                            document.getElementById("myDropdown").classList.toggle("show");
+                            }
+
+                            // Close the dropdown if the user clicks outside of it
+                            window.onclick = function(e) {
+                            if (!e.target.matches('.contact_btn')) {
+                            var myDropdown = document.getElementById("myDropdown");
+                                if (myDropdown.classList.contains('show')) {
+                                myDropdown.classList.remove('show');
+                                }
+                            }
+                            }
+        </script>
+
 
                 </div>
             </nav>
